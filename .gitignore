@@ -1,0 +1,32 @@
+# Dependências e builds
+**/node_modules/
+**/dist/
+**/.dart_tool/
+**/build/
+**/.flutter-plugins*
+**/.packages
+**/coverage/
+
+# Segredos e configuração local (use api/.env.example como modelo)
+**/.env
+**/.env.*
+!**/.env.example
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+
+# Logs
+*.log
+
+# Editores e sistema
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Pastas locais que não fazem parte do código
+_backup*/
+_to_delete/
+deploy-demo/
